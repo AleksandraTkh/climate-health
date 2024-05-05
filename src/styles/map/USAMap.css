@@ -1,0 +1,26 @@
+
+.USA-map-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .USA-map-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .USA-composable-map {
+    width: 100%; 
+  }
+ 
+  .USA-map-controls .country-selector {
+    min-width: 350px; 
+  }
+  .country-selector {
+    border-radius: 30px; 
+  }
+  

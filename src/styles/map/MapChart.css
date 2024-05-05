@@ -1,0 +1,26 @@
+
+.map-container {
+  width: 95%; 
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.map-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.composable-map {
+  width: 100%;
+}
+
+.map-controls .country-selector {
+  min-width: 350px; 
+}
+.country-selector {
+  border-radius: 30px; 
+}

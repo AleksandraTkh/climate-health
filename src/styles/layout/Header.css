@@ -1,0 +1,54 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.App-header h1 {
+  margin: 0; 
+  padding: 0 0 10px 8px; 
+  font-size: 50px;
+}
+
+.App-header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  padding-left: 12px; 
+}
+
+.App-header nav ul li {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.App-header nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.App-header nav ul li a.link {
+  color: #ccc;
+}
+
+.App-header nav ul li a.active {
+  color: #61dafb;
+  font-weight: bold;
+}
