@@ -20,19 +20,11 @@ function Indicators() {
     <div className="page-container">
       <h1 className="heading">Important Indicators</h1>
       <p className="text">
-        These indicators demonstrate the impact of climatic zone characteristics
-        on lifespan, as well as on healthy lifespan. Additionally, information
-        is provided here on the influence of climate on the occurrence of the
-        most common non-infectious diseases. It is worth noting that this
-        information reflects lifespan and the occurrence of these diseases under
-        ideal conditions, that is, under high living standards.
+        These indicators show how climate zone features affect lifespan and
+        healthy lifespan. They also offer insights into how climate impacts
+        common non-infectious diseases. It's important to note that this
+        information assumes ideal conditions, meaning high living standards.
       </p>
-      <p className="text">
-        In other words, in ideal, to the extent possible at this stage of human
-        development, conditions, the impact of climate can be assessed as
-        follows:
-      </p>
-
       <hr className="separator" />
 
       <div className="tabs-container">

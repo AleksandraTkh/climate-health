@@ -81,11 +81,11 @@ function LearnMorePage() {
           <Card.Body>
             <Card.Title style={titleStyle}>Our World in Data</Card.Title>
             <Card.Text style={textBodyStyle}>
-              "To tackle the urgent challenges confronting our world, we must
-              rely on top-notch research and data for guidance. Our World in
-              Data ensures this valuable knowledge is not only accessible but
-              also comprehensible, empowering individuals striving to create a
-              brighter future."
+              To address the pressing issues facing our planet, it is essential
+              to depend on high-quality research and data for direction. Our
+              World in Data ensures that this crucial information is not only
+              available but also understandable, enabling those who are working
+              towards building a better future.
             </Card.Text>
             <Button
               style={buttonStyle}
@@ -100,12 +100,12 @@ function LearnMorePage() {
           <Card.Body>
             <Card.Title style={titleStyle}>The World Bank</Card.Title>
             <Card.Text style={textBodyStyle}>
-              "The World Bank Group, with a membership spanning 189 countries, a
-              diverse staff hailing from over 170 nations, and operational
-              presence in more than 130 locations, stands out as a distinctive
-              global alliance. Comprising five institutions, it collaborates to
-              implement sustainable solutions aimed at alleviating poverty and
-              fostering inclusive growth across developing nations."
+              The World Bank Group, comprised of five institutions and active in
+              over 130 locations worldwide, is a unique global partnership. It
+              boasts a membership of 189 countries and a diverse workforce from
+              more than 170 nations. This organization works collaboratively to
+              develop sustainable strategies that aim to reduce poverty and
+              promote inclusive growth in developing countries.
             </Card.Text>
             <Button
               style={buttonStyle}

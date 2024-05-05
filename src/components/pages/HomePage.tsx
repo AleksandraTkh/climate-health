@@ -75,10 +75,10 @@ function HomePage() {
       <h1 className="heading">About C&H</h1>
       <p className="description" style={textBodyStyle}>
         Welcome to Climate & Health, your premier platform for understanding the
-        vital connection between climate and human well-being. Our platform
+        vital connection between climate and human well-being. The platform
         offers comprehensive insights into how environmental factors, such as
-        average yearly temperature and air pollution levels, directly impact
-        public health.
+        average yearly temperature and air pollution levels, impact public
+        health.
       </p>
       <div style={cardContainerStyle}>
         <Card style={indicatorsCardStyle}>
@@ -97,8 +97,8 @@ function HomePage() {
             <Card.Text style={textBodyStyle}>
               Whether you're interested in the effects of rising temperatures on
               respiratory diseases or the link between air quality and
-              cardiovascular health, we provide the analysis you need to stay
-              informed.
+              cardiovascular health, the platform provides the analysis you need
+              to stay informed.
             </Card.Text>
             <Button
               style={buttonStyle}
