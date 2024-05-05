@@ -19,12 +19,24 @@ const StateSelector: React.FC<{
         const response = await axios.get(
           "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"
         );
+        const excludedStates = [
+          "American Samoa",
+          "Commonwealth of the Northern Mariana Islands",
+          "District of Columbia",
+          "Guam",
+          "Puerto Rico",
+          "United States Virgin Islands",
+        ];
         const stateOptions: CountryOption[] =
           response.data.objects.states.geometries
             .map((geo: any) => ({
               value: geo.id,
               label: geo.properties.name,
             }))
+            .filter(
+              (country: CountryOption) =>
+                !excludedStates.includes(country.label)
+            )
             .sort((a: CountryOption, b: CountryOption) =>
               a.label.localeCompare(b.label)
             );
