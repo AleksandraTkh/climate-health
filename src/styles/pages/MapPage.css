@@ -28,4 +28,26 @@ margin-top:10px;
   border-color: #2dc532; 
 }
 
+@media (max-width: 768px) {
+  .tabs-container {
+      flex-direction: column;
+      align-items: stretch; 
+      gap: 10px; 
+  }
 
+  .tabs-container button {
+      width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs-container {
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+
+  .tabs-container button {
+      padding: 8px 15px;
+      font-size: 14px; 
+  }
+}

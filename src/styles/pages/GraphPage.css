@@ -72,3 +72,23 @@
     color: white;
     border-color: #2dc532;
 }
+@media (max-width: 480px) {
+    .page-container {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .separator {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

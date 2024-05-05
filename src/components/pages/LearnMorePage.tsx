@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import React, { CSSProperties } from "react";
+import React, { CSSProperties, useState, useEffect } from "react";
 
 function LearnMorePage() {
   const navigate = useNavigate();
@@ -10,23 +10,34 @@ function LearnMorePage() {
     window.location.href = url;
   };
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const cardContainerStyle: CSSProperties = {
     display: "flex",
     justifyContent: "space-between",
-    flexWrap: "nowrap",
+    flexWrap: windowWidth > 768 ? "nowrap" : "wrap",
     paddingTop: "10px",
     overflowX: "auto",
     gap: "15px",
   };
 
-  const buttonStyle: CSSProperties = {
-    fontWeight: "bolder",
-    borderRadius: "20px",
-    marginTop: "7px",
-    padding: "10px",
-    backgroundColor: "#4287f5",
-    borderColor: "#4287f5",
-    color: "white",
+  const cardStyle: CSSProperties = {
+    width: windowWidth > 768 ? "90%" : "100%",
+    borderRadius: "10px",
+    backgroundColor: "#f0f4f8",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
   };
 
   const titleStyle: CSSProperties = {
@@ -40,11 +51,14 @@ function LearnMorePage() {
     fontSize: "18px",
   };
 
-  const cardStyle: CSSProperties = {
-    width: "90%",
-    borderRadius: "10px",
-    backgroundColor: "#f0f4f8",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+  const buttonStyle: CSSProperties = {
+    fontWeight: "bolder",
+    borderRadius: "20px",
+    marginTop: "7px",
+    padding: "10px",
+    backgroundColor: "#4287f5",
+    borderColor: "#4287f5",
+    color: "white",
   };
 
   return (

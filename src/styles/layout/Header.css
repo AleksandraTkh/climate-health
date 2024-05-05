@@ -13,15 +13,16 @@
 }
 
 .logo {
-  width: 80px; /* Adjust as needed */
-  height: 80px; /* Adjust as needed */
-  margin-right: 5px; /* Adjust as needed */
+  width: 80px; 
+  height: 80px; 
+  margin-right: 5px;
 }
 
 .App-header h1 {
   margin: 0; 
   padding: 0 0 10px 8px; 
   font-size: 50px;
+  font-family: "Arial, sans-serif";
 }
 
 .App-header nav ul {
@@ -36,6 +37,7 @@
 .App-header nav ul li {
   margin-right: 20px;
   font-size: 20px;
+  
 }
 
 .App-header nav ul li a {
@@ -51,4 +53,52 @@
 .App-header nav ul li a.active {
   color: #61dafb;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .App-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+  }
+
+  .App-header h1 {
+    font-size: 35px;
+    padding: 10px 0; 
+  }
+
+  .App-header nav ul {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .App-header nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    padding: 10px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .App-header h1 {
+    font-size: 28px;
+  }
+
+  .App-header nav ul li {
+    font-size: 16px;
+  }
 }
