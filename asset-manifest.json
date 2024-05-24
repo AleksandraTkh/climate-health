@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/climate-health/static/css/main.f617df02.css",
+    "main.js": "/climate-health/static/js/main.7416ae38.js",
+    "static/js/453.a15228ce.chunk.js": "/climate-health/static/js/453.a15228ce.chunk.js",
+    "static/media/earth.png": "/climate-health/static/media/earth.ef8e07aadb566c21a2ef.png",
+    "static/media/performance.png": "/climate-health/static/media/performance.77654593345746f66f94.png",
+    "static/media/info.png": "/climate-health/static/media/info.1b4003e27c2bca47e2e6.png",
+    "static/media/logo.png": "/climate-health/static/media/logo.e414c6bdf2d8c032640a.png",
+    "static/media/tropical.svg": "/climate-health/static/media/tropical.d406a9a5277e2955be49f3635ec35214.svg",
+    "static/media/desert.svg": "/climate-health/static/media/desert.de0e77e98c1fa34611b2877592a1a06b.svg",
+    "static/media/temparate.svg": "/climate-health/static/media/temparate.407e68e8895f511d48d2811be1e0141f.svg",
+    "static/media/polar.svg": "/climate-health/static/media/polar.fac46b69e7bcd91c94a278aed2e99cc5.svg",
+    "static/media/normal.svg": "/climate-health/static/media/normal.c67071cf71849e65a8efb8c060088b83.svg",
+    "index.html": "/climate-health/index.html",
+    "main.f617df02.css.map": "/climate-health/static/css/main.f617df02.css.map",
+    "main.7416ae38.js.map": "/climate-health/static/js/main.7416ae38.js.map",
+    "453.a15228ce.chunk.js.map": "/climate-health/static/js/453.a15228ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f617df02.css",
+    "static/js/main.7416ae38.js"
+  ]
+}
