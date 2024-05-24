@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend,
   PointElement,
+  LineController,
 } from "chart.js";
 import type { ChartOptions, ChartData } from "chart.js";
 
@@ -21,7 +22,8 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
-  PointElement
+  PointElement,
+  LineController
 );
 
 const RespiratoryMortalityGraph: React.FC = () => {

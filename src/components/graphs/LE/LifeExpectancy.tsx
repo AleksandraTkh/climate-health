@@ -8,6 +8,7 @@ import {
   Title,
   Tooltip,
   Legend,
+  LineController,
 } from "chart.js";
 
 ChartJS.register(
@@ -16,7 +17,8 @@ ChartJS.register(
   BarElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  LineController
 );
 
 const BarChart: React.FC = () => {
